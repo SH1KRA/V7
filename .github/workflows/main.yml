@@ -2,7 +2,7 @@ name: Run Python script
 
 on:
   schedule:
-    - cron: '0 16 * * *' # 北京时间减8小时
+    - cron: '25 23 * * *' # 北京时间减8小时
 
 jobs:
   run-script:
