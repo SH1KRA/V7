@@ -2,7 +2,7 @@ name: Run Python script
 
 on:
   schedule:
-    - cron: '15 17 * * *' # 北京时间每天 0 点执行
+    - cron: '19 17 * * *' # 北京时间每天 0 点执行
 
 jobs:
   run-script:
@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9' # 替换为所需的 Python 版本
+          python-version: '3.8' # 替换为所需的 Python 版本
 
       - name: Install dependencies
         run: pip install -r requirements.txt # 如果有依赖，请替换为正确的文件路径
