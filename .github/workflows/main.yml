@@ -2,7 +2,7 @@ name: Run Python script
 
 on:
   schedule:
-    - cron: '0 16 * * *' # 北京时间每天 0 点执行
+    - cron: '15 17 * * *' # 北京时间每天 0 点执行
 
 jobs:
   run-script:
